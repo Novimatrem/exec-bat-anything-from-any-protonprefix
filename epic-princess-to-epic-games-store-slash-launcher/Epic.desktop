@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=Epic Games
+Exec=steam steam://rungameid/2195670
+Type=Application
+StartupNotify=false
+Path=/mnt/HDD_0/SteamLibrary/steamapps/common/Epic Princess/
+Icon=/opt/epicgamesicon.png
+StartupWMClass=epic_princess.exe
+Comment=Play this game on Steam
+Terminal=false
+Categories=Game;

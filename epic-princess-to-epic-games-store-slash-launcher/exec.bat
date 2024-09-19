@@ -57,6 +57,20 @@ for %%I in (.) do echo %%~nxI
 dir
 EpicGamesLauncher.exe
 
+REM fix 2025
+echo %cd%
+cd compatdata
+cd 2195670
+cd pfx
+cd drive_C
+cd "Program Files (x86)"
+cd "Epic Games"
+cd Launcher
+cd Portal
+cd Binaries
+cd Win32
+EpicGamesLauncher.exe
+
 echo done
 exit
 pause
